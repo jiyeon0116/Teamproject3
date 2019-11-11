@@ -11,7 +11,7 @@ public class MyHelloFrame extends JFrame
     public JPanel mp;
     public JLabel ml;
     private JLabel label = new JLabel("Hello");
-    private final int  FLYING_UNIT = 10;
+    
     public MyHelloFrame(){
         this.setSize(400,300);
         this.setTitle("실습_3(2019.11.11)");
@@ -22,8 +22,11 @@ public class MyHelloFrame extends JFrame
         mp.add(ml);
         this.add(mp);
         
-        Container c = getContentPane();
-        c.addMouseListener(new MyHelloPanelListener());
+        mp.addMouseListener();
+        mp.addKeyListener();
+        this.setLayout(null);
+        ml.setSize(50,20);
+        ml.setLocation(30,30);
         
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
