@@ -10,6 +10,8 @@ public class MyHelloFrame extends JFrame
 {
     public JPanel mp;
     public JLabel ml;
+    private JLabel label = new JLabel("Hello");
+    private final int  FLYING_UNIT = 10;
     public MyHelloFrame(){
         this.setSize(400,300);
 
@@ -20,6 +22,9 @@ public class MyHelloFrame extends JFrame
 
         mp.add(ml);
         this.add(mp);
+        
+        Container c = getContentPane();
+        c.addMouseListener(new MyHelloPanelListener());
         
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
