@@ -7,8 +7,6 @@
  */
 public class MyHelloFrame
 {
-    MyHelloFrame(){
-    super("실습")
-    }
+    
 }
 
