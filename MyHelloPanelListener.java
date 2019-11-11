@@ -8,10 +8,10 @@ import javax.swing.event.*;
  * @author (작성자 이름) 
  * @version (버전번호나 날짜)
  */
-public class MyHelloPanelListener implements KeyListener,MouseListener
+public class MyHelloPanelListener extends implements KeyListener,MouseListener
 {
-    
-    public MyHelloPanelListener(){
+    JLabel ml;
+    public MyHelloPanelListener(JLabel label){
         
     }
     public void mousePressed(MouseEvent e){
@@ -21,7 +21,18 @@ public class MyHelloPanelListener implements KeyListener,MouseListener
     }
     public void mouseClicked(MouseEvent e){
     }
+    public void mouseEntered(MouseEvent e){
+    }
+    public void mouseExited(MouseEvent e){
+    }
+    public void mouseReleased(MouseEvent e){
+    }
+    
     public void keyPressed(KeyEvent e){
         
+    }
+    public void keyReleased(keyEvent e){
+    }
+    public void keyTyped(keyEvent e){
     }
 }
