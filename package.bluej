@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=MyHelloApp
-dependency1.to=MyHelloFrame
+dependency1.from=MyHelloFrame
+dependency1.to=MyHelloPanelListener
 dependency1.type=UsesDependency
-dependency2.from=MyHelloFrame
-dependency2.to=MyHelloPanelListener
+dependency2.from=MyHelloApp
+dependency2.to=MyHelloFrame
 dependency2.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
