@@ -12,7 +12,9 @@ public class MyHelloFrame extends JFrame
     public JLabel ml;
     public MyHelloFrame(){
         this.setSize(400,300);
-        this.setTitle("");
+
+        this.setTitle("실습_3(2019.11.11)");
+
         mp = new JPanel();
         ml= new JLabel();
 
